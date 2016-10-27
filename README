@@ -1,0 +1,11 @@
+What the library does ?
+You can connect to a remote JVM and debug it programatically. The library
+exposes methods like addBreakpoint and removeBreakpoint which take a callback
+method as input which is invoked when the JVM executes the breakpoint.
+How to use the library ?
+Take a look at src/wrapper/src/test package to see how to use the library.
+How to get started ?
+Just add JVMTalker.jar from out/artifacts/JVMTalker_jar/JVMTalker.jar to your
+project and use the library as demonstrated in the test package.
+
+Note: Depends on Intellij SDK v162.2032.8
